@@ -1,0 +1,33 @@
+heading tag
+-----------
+
+h1 ..... h6
+
+default font- 16px
+1em = 16px = 100%
+2em = 32px - 200%
+
+rem => root ele size
+
+
+p -> 16px
+
+
+Block level element
+-------------------
+
+>> starts on the new line
+>> Occupy whole width
+>> eg. div, p, heading tags
+
+
+Inline level element
+--------------------
+>> starts in the same line 
+>> only takes space which is required
+>> eg. img, a, span
+
+
+div -> generic container
+section => group together which is related to same theme(thematically relate content)
+article => represent a piece of content
