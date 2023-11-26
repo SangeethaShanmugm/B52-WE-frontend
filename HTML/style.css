@@ -1,0 +1,7 @@
+table
+/* th,
+td  */ {
+  border: 5px solid green !important;
+  border-collapse: collapse;
+  padding: 10px;
+}

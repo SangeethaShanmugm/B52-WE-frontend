@@ -31,3 +31,55 @@ Inline level element
 div -> generic container
 section => group together which is related to same theme(thematically relate content)
 article => represent a piece of content
+
+
+
+CSS => Cascading Style Sheet
+
+3 ways to define CSS
+---------------------
+
+1. inline Styling 
+>>  style="background-color: aqua;"
+>>  style attribute inside html tags
+
+2. internal styling
+>>  <style></style> inside head tag
+>>  <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px
+        }
+    </style>
+
+3. external styling 
+>> <link rel="stylesheet" href="style.css" />
+>> <link> tag inside head tag and call css file    
+
+
+css selector
+-------------
+
+>>id selector 
+>>class selector 
+>>tag selector
+
+
+display: none, visibility: hidden(difference)
+----------------------------------
+display: none => will not occupy any space
+
+visibility: hidden => will occupy space
+-----------------------------------------------------------------
+
+
+display: block & visibility: visible => text will be visible
+
+
+display: inline
+
+display: block  => visible the content + convert inline element to block
+display: inline  => convert block element to inline
